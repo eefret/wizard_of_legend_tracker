@@ -4,6 +4,7 @@ import 'package:wizard_of_legend_tracker/app/locator.dart';
 import 'package:wizard_of_legend_tracker/app/router.gr.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   setupLocator();
   runApp(MyApp());
 }
